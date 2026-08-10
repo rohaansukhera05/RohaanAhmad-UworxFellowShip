@@ -1,0 +1,27 @@
+[
+  {
+    "sentAt": "2026-08-10T02:08:28.653Z",
+    "endpoint": "https://webhook.site/8f3c1d9e...",
+    "payload": {
+      "event": "weather.reading",
+      "sentAt": "2026-08-10T02:08:28.653Z",
+      "city": "Lahore",
+      "country": "Pakistan",
+      "coordinates": {
+        "latitude": 31.5204,
+        "longitude": 74.3587
+      },
+      "observedAt": "2026-08-10T14:15",
+      "timezone": "Asia/Karachi",
+      "condition": "Partly cloudy",
+      "temperatureC": 37.9,
+      "feelsLikeC": 41.3,
+      "humidityPercent": 48,
+      "windSpeedKmh": 12.6
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK"
+    }
+  }
+]
