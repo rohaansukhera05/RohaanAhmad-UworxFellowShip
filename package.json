@@ -1,0 +1,17 @@
+{
+  "name": "week2",
+  "version": "1.0.0",
+  "description": "Week 2 — fetch live weather for Lahore from Open-Meteo, then forward selected data to a webhook.",
+  "type": "module",
+  "main": "api-demo.js",
+  "scripts": {
+    "api": "node api-demo.js",
+    "webhook": "node webhook-demo.js"
+  },
+  "keywords": ["api", "webhook", "axios", "open-meteo", "json", "learning"],
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}
