@@ -1,0 +1,38 @@
+{
+  "savedAt": "2026-08-10T02:08:21.738Z",
+  "source": "Open-Meteo",
+  "city": "Lahore",
+  "country": "Pakistan",
+  "coordinates": {
+    "latitude": 31.5204,
+    "longitude": 74.3587
+  },
+  "httpStatus": 200,
+  "data": {
+    "latitude": 31.5,
+    "longitude": 74.375,
+    "generationtime_ms": 0.041,
+    "utc_offset_seconds": 18000,
+    "timezone": "Asia/Karachi",
+    "timezone_abbreviation": "PKT",
+    "elevation": 217,
+    "current_units": {
+      "time": "iso8601",
+      "interval": "seconds",
+      "temperature_2m": "°C",
+      "relative_humidity_2m": "%",
+      "apparent_temperature": "°C",
+      "wind_speed_10m": "km/h",
+      "weather_code": "wmo code"
+    },
+    "current": {
+      "time": "2026-08-10T14:15",
+      "interval": 900,
+      "temperature_2m": 37.9,
+      "relative_humidity_2m": 48,
+      "apparent_temperature": 41.3,
+      "wind_speed_10m": 12.6,
+      "weather_code": 2
+    }
+  }
+}
