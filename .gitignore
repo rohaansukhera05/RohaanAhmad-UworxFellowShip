@@ -1,0 +1,31 @@
+# Dependencies — rebuilt by `npm install`, far too big for git.
+node_modules/
+
+# Secrets and personal endpoints.
+# Your webhook.site URL is effectively a password: anyone holding it can read
+# everything you send there. Keep it out of the repository.
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Logs and debug output
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating system clutter
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+
+# Note: api-response.json, webhook-log.json and screenshots/ are deliberately
+# NOT ignored. They are this project's evidence of work and belong in the repo.
+# The webhook URL inside webhook-log.json is masked before it is written.
+# In a normal project you would ignore generated files like these.
